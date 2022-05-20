@@ -9,7 +9,7 @@ import { TokenModel } from '../models/tokenModel';
 })
 export class AuthService {
 
-  apiUrl: string = "https://localhost:44377/api/Auth/dd"
+  apiUrl: string = "https://localhost:44377/api/Auth/"
 
   constructor(private httpClient: HttpClient) { }
 
